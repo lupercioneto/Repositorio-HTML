@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Organização de estudos">
+    <meta name="description" content="Organização de estudos do aluno Francisco Lupercio do curso de ADS no IFCE - Campus Tauá">
     <title>Organização de Estudos</title>
     
     <link rel="shortcut icon" href="" type="image/x-icon">
@@ -11,7 +11,8 @@
     <style>
         body {
             background: linear-gradient(beige, #cef3ed);
-            margin: 3%
+            margin-left: 2%;
+            margin-right: 2%;
         }
 
        .apres{
@@ -25,23 +26,26 @@
        }
 
        .circle {
-            background-color: white;
-            border-radius: 100%;
-            width: 60px;
-            height: 60px;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
             overflow:hidden;
             position:absolute;
             margin-left: 20%;
-            
+    
         }
 
         .circle img {
-        position:static;
-        bottom: 0;
-        width: 100%;
-        align-content: center
+            position:static;
+            bottom: 0;
+            width: 100%;
+            align-content: center
         }
 
+        .container .tags > li {
+            margin: 3px;
+            padding: 3px;
+        }
     </style>
 </head>
 <body>
@@ -86,7 +90,7 @@
                 <li>Banco de Dados;</li>
                 <li>Fundamentos de Matemática;</li>
                 <li>Pensamento Computacional;</li>
-                <li>Introdução à Programção;</li>
+                <li>Introdução à Programação;</li>
                 <li>Introdução à Computação;</li>
                 <li>Inglês Técnico.</li>
             </ul>
@@ -105,10 +109,10 @@
     </div>
 
     <hr>
-
-    <h2 id="aprendido"> O Que Aprendemos Até Aqui em TWEB &#9989;</h2>
+    <div class="container">
+    <h2 id="aprendido">O Que Aprendemos Até Aqui em TWEB &#9989;</h2>
         <p>
-            Na disciplina de Tecnologias Web, estudamos as tecnologias Web básicas relacionadas ao desenvolvimento de <br> interfaces de sites e sistemas Web. 
+            Na disciplina de <b>Tecnologias Web</b>, estudamos as tecnologias Web básicas relacionadas ao desenvolvimento de <br> interfaces de sites e sistemas Web. 
             <br>
             <br>
             Até aqui estudamos os seguintes conceitos de HTML:
@@ -116,22 +120,29 @@
         <ul>
             <li>O que é HTML?</li>
             <li> Estrutura básica de um documento HTML
-                <ul>
-                    <li style="margin-top: 10px;" title="Seção de cabeçalho com metadados da página"> Tag <code> &lt;head&gt;</head></code></li>
+                <ul class="tags">
+                    <li title="Seção de cabeçalho com metadados da página"> Tag <code> &lt;head&gt;</head></code></li>
                     <li title="Seção na qual todo conteúdo da página será apresentado"> Tag <code> &lt;body&gt;</code></li>
                     <li title="Declaração que informa ao browser a versão HTML usada no documento"> Declaração <code> &lt;!DOCTYPE html&gt;</code> </li>
                     <li title="Define o idioma em que o site será apresentado à priori"> Lang na tag <code>&lt;html&gt;</code> 
                     </li>
                     <li title="Define o tipo de metadado a ser exibido"> Tag <code>&lt;meta&gt;</code></li>
                     <li title="Nomeia o título da página na guia do navegador"> Tag <code>&lt;title&gt;</code></li>
+                    <li title="Transfere formatações CSS para as tags especificadas"> Tag <code>&lt;style&gt;</code></li>
+                </ul>  
+            </li>
+            <li>Tags Básicas
+                <ul class="tags">
                     <li title="Hierarquização de títulos"> Tags <code>&lt;h1&gt; a &lt;h6&gt;</code></li>
                     <li title="Demarca um parágrafo"> Tag <code>&lt;p&gt;</code></li>
                     <li title="Enfatiza o texto (texto em itálico)"> Tag <code>&lt;em&gt;</code></li>
                     <li title="Realiza um marcação de caneta marca-texto"> Tag <code>&lt;mark&gt;</code></li>
-                </ul>   
+                    <li title="Realiza uma quebra de linha"> Tag <code>&lt;br&gt;</code></li>
+                    <li title="Demarca com uma linha horizontal"> Tag <code>&lt;hr&gt;</code></li>
+                </ul>
             </li>
         </ul>
-        
+    </div>
     <hr>
 
     <h2 id="links">Links Úteis &#128279;</h2>
@@ -141,6 +152,7 @@
         <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
         <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
         <li><a href="https://github.com/lupercioneto" target="_blank">Meu GitHub</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Plataforma Curso Em Vídeo</a></li>
     </ul>
         
         <p style="text-align: center;">
