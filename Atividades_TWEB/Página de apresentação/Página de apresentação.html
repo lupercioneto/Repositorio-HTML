@@ -12,13 +12,14 @@
         body {
             background: linear-gradient(beige, #cef3ed);
             margin-left: 2%;
-            margin-right: 2%;
+            margin-right: 2%;   
         }
 
        .apres{
             text-align: center;
             font-size: large;
             background: linear-gradient(to bottom right,);
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
        }
 
        li {
@@ -46,23 +47,31 @@
             margin: 3px;
             padding: 3px;
         }
+
+        .link img {
+            margin-top: 20px;
+            margin-bottom: -10px;
+            border-radius: 100%;
+            margin-left: 10px;
+            background-color: snow;
+        }
     </style>
 </head>
 <body>
     <div class="circle">
-        <img src="wolf.png" alt="Thomas Icon">        
+        <img src="wolf.png" alt="Wolf Icon">        
     </div>
     <span style="text-align: center;">
         <h1 style="padding: 15px;">
             Francisco Lupercio Pedroso Feitosa Neto
         </h1>
         <p>
-            <h3><strong> &#127760; Menu de navegação:</strong> 
-                <a href="#apresentação">Apresentação</a> | 
+            <h3> &#127760; Menu de navegação: 
+                <a href="#apresentação">Apresentação</a> |
                 <a href="#disciplinas">Disciplinas</a> |
                 <a href="#conteúdo">Conteúdo Planejado</a> |
                 <a href="#aprendido">O Que Foi Aprendido</a> |
-                <a href="#links">Links úteis</a> 
+                <a href="#links">Links úteis</a>
             </h3> 
         </p>
     </span>
@@ -72,11 +81,10 @@
     <div class="apres">
         <h2 id="apresentação">Apresentação &#129303;</h2>
         <p>
-            Olá, meu nome é <b> Lupercio Neto </b>, tenho 17 anos e sou aluno do curso de <em>Análise e Desenvolvimento de Sistemas</em>
-            no <b>IFCE - Campus Tauá.</b>
+            Olá! Me chamo <b> Lupercio Neto </b>, tenho 17 anos e sou aluno do curso de <em> Análise e Desenvolvimento de Sistemas</em> no <b>IFCE - Campus Tauá.</b>
             <br>
-            Estou no primeiro semestre do curso e meu objetivo principal é aprender a formular projetos, 
-            criar páginas web (sites) <br> e desenvolver sistemas lógicos utilizando linguagens de programação &#128187;.
+            Estou no primeiro semestre do curso e meu objetivo principal é aprender a <b>formular projetos</b>, 
+            <b>criar páginas web</b> <i>(sites)</i> <br> e desenvolver sistemas lógicos utilizando <b>linguagens de programação</b> &#128187;.
         <hr>
     </div>
 
@@ -86,13 +94,13 @@
             No momento estou cursando as seguintes disciplinas técnicas:
             </p>
             <ul>
-                <li><mark>Tecnologias Web (TWEB);</mark></li>
-                <li>Banco de Dados;</li>
-                <li>Fundamentos de Matemática;</li>
-                <li>Pensamento Computacional;</li>
-                <li>Introdução à Programação;</li>
-                <li>Introdução à Computação;</li>
-                <li>Inglês Técnico.</li>
+                <li><mark>Tecnologias Web (TWEB)</mark> &#127760; </li>
+                <li>Banco de Dados &#x1F5C4;</li>
+                <li>Fundamentos de Matemática &#x1F4D0;</li>
+                <li>Pensamento Computacional &#x1F9E0;</li>
+                <li>Introdução à Programação &#x1F5B3;</li>
+                <li>Introdução à Computação &#x1F4BD;</li>
+                <li>Inglês Técnico 	&#x1F985;</li>
             </ul>
         </div>
         <hr>    
@@ -100,7 +108,7 @@
     <div>
         <h2 id="conteúdo"> Conteúdo Planejado para TWEB &#x1f3af; </h2>
             <p>Essa é a sequência de conteúdos que vamos estudar em TWEB:</p>
-        <ol>
+        <ol type="I">
             <li>Introdução à Internet e Web</li>
             <li><i>HyperText Markup Language</i> (HTML) </li>
             <li><i>Cascading Style Sheets</i> (CSS) </li>
@@ -144,19 +152,21 @@
         </ul>
     </div>
     <hr>
-
     <h2 id="links">Links Úteis &#128279;</h2>
-    <ul>
-        <li><a href="https://github.com/lucas-lfm/tweb-ads-base" target="_blank">GitHub da Discplina</a></li>
-        <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
-        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
-        <li><a href="https://github.com/lupercioneto" target="_blank">Meu GitHub</a></li>
-        <li><a href="https://www.cursoemvideo.com/" target="_blank">Plataforma Curso Em Vídeo</a></li>
-    </ul>
+    
+        <ul class="link">
+            <b>
+                <li><a href="https://github.com/lucas-lfm/tweb-ads-base" target="_blank">GitHub (Discplina TWEB)</a> <img src="Logos/github.png" alt="GitHub"></li>
+                <li><a href="https://codepen.io/" target="_blank">CodePen</a><img src="Logos/codepn.png" alt="CodePen"></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a> <img src="Logos/w3sc.png" alt="W3Schools"></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a><img src="Logos/mdn.png" alt="MDN Web Docs"></li>
+                <li><a href="https://github.com/lupercioneto" target="_blank">Meu GitHub</a> <img src="Logos/github.png" alt="GitHub"></li>
+                <li><a href="https://www.cursoemvideo.com/" target="_blank">Plataforma Curso Em Vídeo</a> <img src="Logos/cursoemvideo.png" alt="CursoEmVídeo"></li>
+            </b>
+        </ul>
         
         <p style="text-align: center;">
-            <a href="">Voltar ao início</a>
+            <a href="">Voltar ao início</a> &#x2B06; 
         </p>
 </body>
 </html>
