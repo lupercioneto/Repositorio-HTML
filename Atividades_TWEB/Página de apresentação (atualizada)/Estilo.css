@@ -1,0 +1,118 @@
+body {
+    background-color:rgba(168, 168, 209, 0.548);
+    padding: 0;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/*Imagem header ADS*/
+.ads {
+    justify-content: center;
+    display: flex;
+    margin-bottom: -7px;
+    max-width: 1345px;
+    
+}
+
+/*Layout do menu de navegação*/
+.menu {
+    background-color: rgba(15, 109, 197, 0.561);
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+}
+
+footer {
+    background-color: rgba(138, 157, 214, 0.561);
+    padding: 10px;
+}
+
+.apres{
+    text-align: center;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+li {
+   padding-bottom: 10px;
+}
+
+/*Ícone Lobo*/
+.circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    overflow:hidden;
+    position:absolute;
+    margin-left: 23%;
+    margin-top: 8px;
+}
+
+.circle img {
+    position:static;
+    width: 100%;
+}
+
+/*Listas dos conteúdos a ser aprendido*/
+
+.tags > li {
+    padding: 6px;
+    
+}
+
+code {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(110, 105, 105, 0.61);
+    background-color: rgba(7, 7, 7, 0.61);
+    color: white;
+}
+
+
+/*Imagens do rodapé*/
+.link img {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    border-radius: 100%;
+    margin-left: 10px;
+    background-color: white;
+    color:  rgba(65, 105, 225, 0.561);
+}
+
+/*Botão de voltar ao início (linha 216)*/
+.botvolt {
+    border-radius: 100px;
+    border-color: blueviolet;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: pink;
+}
+
+/*Botões de Navegação da página)*/
+button {
+    cursor:pointer;
+    border-width: 3px;
+    border-radius: 1cm;
+    border-color: blueviolet;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: pink;
+}
+
+/*Alinhamento*/
+
+div {
+    margin-left: 15px;
+}
+
+hr {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
