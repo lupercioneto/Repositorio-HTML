@@ -11,6 +11,7 @@
     
 </head>
 <body>
+    <!--Imagem Header-->
     <header class="ads">
         <picture>
             <source media="(max-width: 750px)" srcset="ADSHeader/ADSHeader700.png" type="image/png">
@@ -19,23 +20,30 @@
             <img src="ADSHeader/ADSHeader.png" alt="ADS Header">
         </picture>
     </header>
+
     <hr>
+
+    <!--Menu de Navegação-->
     <img class="circle" src="wolf.png" alt="Wolf Icon">
         <header class="menu">
-            <h1 style="margin: 5px;">
+            <h1 style="margin: 15px;">
                 Francisco Lupercio Pedroso Feitosa Neto
             </h1>
             <p>
                 <h3 style="margin: 0;"> &#127760; Menu de navegação: &nbsp; 
                 <a href="#apresentação"><button>Apresentação</button></a> &nbsp;
                 <a href="#disciplinas"> <button>Disciplinas</button></a> &nbsp;
+                <a href="#horario"><button>Horário</button></a> &nbsp;
                 <a href="#conteúdo"> <button>Conteúdo Planejado</button></a> &nbsp;
                 <a href="#aprendido"> <button>O Que Foi Aprendido</button></a> &nbsp;
                 <a href="#links"> <button>Links úteis</button></a>
                 </h3>
             </p>
         </header>
+
     <hr>
+
+    <!--Apresentação-->
     <span class="apres">
         <h2 id="apresentação">Apresentação &#129303;</h2>
         <p>
@@ -48,103 +56,107 @@
         <hr>
     </span>
 
-        <div>
-            <h2 id="disciplinas"> Disciplinas &#128218;</h2>
-            <p>
-            No momento estou cursando as seguintes disciplinas técnicas:
-            </p>
-            <ul>
-                <li><mark>Tecnologias Web (TWEB)</mark> &#127760; </li>
-                <li>Banco de Dados &#x1F5C4;</li>
-                    <li>Fundamentos de Matemática &#x1F4D0;</li>
-                    <li>Pensamento Computacional &#x1F9E0;</li>
-                    <li>Introdução à Programação &#x1F5B3;</li>
-                    <li>Introdução à Computação &#x1F4BD;</li>
-                    <li>Inglês Técnico 	&#x1F985;</li>
-            </ul>
-        </div>
-        
-        <hr>    
+    <!--Sobre Disciplinas-->
 
-    <!--Container Horário (Incompleto)-->
     <div>
-        <h2>Horário &#x1F4C5;</h2>
+        <h2 id="disciplinas"> Disciplinas &#128218;</h2>
+        <p>
+        No momento estou cursando as seguintes disciplinas técnicas:
+        </p>
+        <ul>
+            <li><mark>Tecnologias Web (TWEB)</mark> &#127760; </li>
+            <li>Banco de Dados &#x1F5C4;</li>
+            <li>Fundamentos de Matemática &#x1F4D0;</li>
+            <li>Pensamento Computacional &#x1F9E0;</li>
+            <li>Introdução à Programação &#x1F5B3;</li>
+            <li>Introdução à Computação &#x1F4BD;</li>
+            <li>Inglês Técnico 	&#x1F985;</li>
+        </ul>
+    </div>
+    
+    <hr>    
+
+    <!--Tabela de Horários-->
+    <div>
+        <h2 id="horario">Horário &#x1F4C5;</h2>
         <p>Este é meu horário atual de aulas:</p>
     </div>
 
-    <h3 style="text-align: center;">Horário semanal (incompleto)</h3>
-    <div class="container">
+    <h3 style="text-align: center;">Horário semanal</h3>
 
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-        </div>
+    <table>
+        <tr class="dia_hora">
+            <td>Horário/Dia</td>
+            <td>Seg</td>
+            <td>Ter</td>
+            <td>Qua</td>
+            <td>Qui</td>
+            <td>Sex</td>
+        </tr>
+    
+        <tr>
+            <td class="dia_hora">7:25 - 8:25</td>
+            <td class="BD">Banco de Dados</td>
+            <td class="FM">Fundamentos de Matemática</td>
+            <td class="FM">Fundamentos de Matemática</td>
+            <td class="EN">Inglês Técnico</td>
+            <td class="BD">Banco de Dados</td>
+        </tr>
+    
+        <tr>
+            <td class="dia_hora">8:25 - 9:25</td>
+            <td class="BD">Banco de Dados</td>
+            <td class="FM">Fundamentos de Matemática</td>
+            <td class="FM">Fundamentos de Matemática</td>
+            <td class="EN">Inglês Técnico</td>
+            <td class="BD">Banco de Dados</td>
+        </tr>
+    
+        <tr style="background-color: yellow;"> 
+            <td colspan="6" >INTERVALO</td>
+        </tr>
+        
+        <tr>
+            <td class="dia_hora">9:50 - 10:50</td>
+            <td class="IP">Introd. à Programação</td>
+            <td class="IP">Introd. à Programação</td>
+            <td class="WEB">Tecnologias Web</td>
+            <td class="IC">Introd. à Computação</td>
+            <td class="PC">Pensamento Computacional</td>
+        </tr>
+    
+        <tr>
+            <td class="dia_hora">10:50 - 11:50</td>
+            <td class="IP">Introd. à Programação</td>
+            <td class="IP">Introd. à Programação</td>
+            <td class="WEB">Tecnologias Web</td>
+            <td class="IC">Introd. à Computação</td>
+            <td class="PC">Pensamento Computacional</td>
+        </tr>
+    </table>
 
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-        </div>
+    <!--Fim da tabela de Horários-->
 
-        <div style="text-align: center; font-weight: bolder;" class="row">
-            <div class="col-12"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-            <div class="col-2"></div>
-        </div>
-    </div>
     <hr>
-    <!--Fim do Container Horário-->
 
+    <!--Coteúdo Planejado para TWEB-->
     <div>
         <h2 id="conteúdo"> Conteúdo Planejado para TWEB &#x1f3af;</h2>
         <p>Essa é a sequência de conteúdos que vamos estudar em TWEB:</p>
         <ol type="I">
-            <li>Introdução à Internet e Web;</li>
-            <li><i>HyperText Markup Language</i> (HTML); </li>
-            <li><i>Cascading Style Sheets</i> (CSS); </li>
-            <li><i>Frameworks front-end;</i></li>
-            <li>Interface de Usuário e Design deExperiência de Usuário <i>(UI/UX)</i></li>
+            <li><b>Introdução à Internet e Web;</b></li>
+            <li><i><b>HyperText Markup Language</i>&nbsp;(HTML);</b> </li>
+            <li><i><b>Cascading Style Sheets</i>&nbsp;(CSS);</b></li>
+            <li><i><b>Frameworks front-end;</b></i></li>
+            <li><b>Interface de Usuário e Design de Experiência de Usuário <i>(UI/UX)</b></i></li>
         </ol>
     </div>
 
     <hr>
     
+    <!--Conteúdo Aprendido-->
     <div class="oqap">
-        <h2 id="aprendido">
-            O Que Aprendemos Até Aqui em TWEB &#9989;
-        </h2>
+        <h2 id="aprendido"> O Que Aprendemos Até Aqui em TWEB &#9989;</h2>
             <p>
                 Na disciplina de <b>Tecnologias Web</b>, estudamos as tecnologias Web básicas relacionadas ao desenvolvimento de <br> interfaces de sites e sistemas Web.
             </p>
@@ -153,53 +165,51 @@
                 <li>O que é HTML?</li>
                 <li> Estrutura básica de um documento HTML
                     <ul class="tags">
-                        <li title="Seção de cabeçalho com metadados da página"> Tag <code> &lt;head&gt;</head></code></li>
-                        <li title="Seção na qual todo conteúdo da página será apresentado"> Tag <code> &lt;body&gt;</code></li>
-                        <li title="Declaração que informa ao browser a versão HTML usada no documento"> Declaração <code> &lt;!DOCTYPE html&gt;</code> </li>
-                        <li title="Define o idioma em que o site será apresentado à priori"> Lang na tag <code>&lt;html&gt;</code>
+                        <li> Tag <code title="Seção de cabeçalho com metadados da página"> &lt;head&gt;</head></code></li>
+                        <li> Tag <code title="Seção na qual todo conteúdo da página será apresentado"> &lt;body&gt;</code></li>
+                        <li> Declaração <code title="Declaração que informa ao browser a versão HTML usada no documento"> &lt;!DOCTYPE html&gt;</code></li>
+                        <li> Lang na tag <code title="Define o idioma em que o site será apresentado à priori">&lt;html&gt;</code>
                         </li>
-                        <li title="Define o tipo de metadado a ser exibido"> Tag <code>&lt;meta&gt;</code></li>
-                        <li title="Nomeia o título da página na guia do navegador"> Tag <code>&lt;title&gt;</code></li>
-                        <li title="Transfere formatações CSS para as tags especificadas"> Tag <code>&lt;style&gt;</code></li>
+                        <li> Tag <code title="Define o tipo de metadado a ser exibido">&lt;meta&gt;</code></li>
+                        <li> Tag <code title="Nomeia o título da página na guia do navegador">&lt;title&gt;</code></li>
+                        <li> Tag <code title="Transfere formatações CSS para as tags especificadas">&lt;style&gt;</code></li>
                     </ul>
                 </li>
                 <li>Tags Básicas
                     <ul class="tags">
-                        <li title="Hierarquização de títulos"> Tags <code>&lt;h1&gt; a &lt;h6&gt;</code></li>
-                        <li title="Demarca um parágrafo"> Tag <code>&lt;p&gt;</code></li>
-                        <li title="Enfatiza o texto (texto em itálico)"> Tag <code>&lt;em&gt;</code></li>
-                        <li title="Realiza um marcação de caneta marca-texto"> Tag <code>&lt;mark&gt;</code></li>
-                        <li title="Realiza uma quebra de linha"> Tag <code>&lt;br&gt;</code></li>
-                        <li title="Demarca com uma linha horizontal"> Tag <code>&lt;hr&gt;</code></li>
+                        <li> Tags <code title="Hierarquização de títulos">&lt;h1&gt; a &lt;h6&gt;</code></li>
+                        <li> Tag <code title="Demarca um parágrafo">&lt;p&gt;</code></li>
+                        <li> Tag <code title="Enfatiza o texto (texto em itálico)">&lt;em&gt;</code></li>
+                        <li> Tag <code title="Realiza um marcação de caneta marca-texto">&lt;mark&gt;</code></li>
+                        <li> Tag <code title="Realiza uma quebra de linha">&lt;br&gt;</code></li>
+                        <li> Tag <code title="Demarca com uma linha horizontal">&lt;hr&gt;</code></li>
                     </ul>
                 </li>
             </ul>
     </div>
-    
 
     <hr>
         
-            <footer>
-                <h2 id="links">Links Úteis &#128279;</h2>
-                    <ul class="link">
-                        <b>
-                            <li><a href="https://github.com/lucas-lfm/tweb-ads-base" target="_blank">GitHub - Discplina TWEB</a> <img src="Logos/github.png" alt="GitHub"></li>
-                            <li><a href="https://codepen.io/" target="_blank">CodePen</a><img src="Logos/codepn.png" alt="CodePen"></li>
-                            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a> <img src="Logos/w3sc.png" alt="W3Schools"></li>
-                            <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a><img src="Logos/mdn.png" alt="MDN Web Docs"></li>
-                            <li><a href="https://github.com/lupercioneto" target="_blank">Meu GitHub</a> <img src="Logos/github.png" alt="GitHub"></li>
-                            <li><a href="https://www.cursoemvideo.com/" target="_blank">Plataforma CursoEmVídeo</a> <img src="Logos/cursoemvideo.png" alt="CursoEmVídeo"></li>
-                        </b>
-                    </ul>
-                    <h5>
-                        Site desenvolvido por Francisco Lupercio Pedroso F. Neto
-                        <br>
-                        Todos os direitos reservados &copy; 2024
-                    </h5>
-                    
-                    <p style="text-align: center;">
-                        <a href="#"><button class="botvolt">Voltar ao início &#x2B06;</button></a>
-                    </p>
-            </footer>
+    <!--Links Úteis-->
+    <footer>
+        <h2 id="links">Links Úteis &#128279;</h2>
+            <ul class="link">
+                <li><a href="https://github.com/lucas-lfm/tweb-ads-base" target="_blank">GitHub - Discplina TWEB</a> <img src="Logos/github.png" alt="GitHub"></li>
+                <li><a href="https://codepen.io/" target="_blank">CodePen</a><img src="Logos/codepn.png" alt="CodePen"></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a> <img src="Logos/w3sc.png" alt="W3Schools"></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a><img src="Logos/mdn.png" alt="MDN Web Docs"></li>
+                <li><a href="https://github.com/lupercioneto" target="_blank">Meu GitHub</a> <img src="Logos/github.png" alt="GitHub"></li>
+                <li><a href="https://www.cursoemvideo.com/" target="_blank">Plataforma CursoEmVídeo</a> <img src="Logos/cursoemvideo.png" alt="CursoEmVídeo"></li>
+            </ul>
+            <h5>
+                Site desenvolvido por Francisco Lupercio Pedroso F. Neto
+                <br>
+                Todos os direitos reservados &copy; 2024
+            </h5>
+            
+            <p style="text-align: center;">
+                <a href="#"><button class="botvolt">Voltar ao início &#x2B06;</button></a>
+            </p>
+    </footer>
 </body>
 </html>

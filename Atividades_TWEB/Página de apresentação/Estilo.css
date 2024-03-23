@@ -33,6 +33,7 @@ footer {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+/*Distanciamento entre itens das listas*/
 li {
    padding-bottom: 10px;
 }
@@ -40,46 +41,50 @@ li {
 /*Ícone Lobo*/
 .circle {
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    overflow:hidden;
-    position:absolute;
-    margin-left: 23%;
-    margin-top: 8px;
+    width:50px;
+    height: 50px;
+    margin-top: 1%;
+    position: absolute;
+    margin-inline-start: 22%;
 }
 
 .circle img {
-    position:static;
+    position: absolute;
     width: 100%;
 }
 
 /*Listas dos conteúdos a ser aprendido*/
-
 .tags > li {
     padding: 6px;
     
 }
 
+/*Lista de conteúdos já estudados e sua interação com o usuário*/
 code {
+    cursor: default;
     border-style: solid;
     border-radius: 5px;
+    background-color: rgb(0, 0, 0);
     border-color: rgba(110, 105, 105, 0.61);
-    background-color: rgba(7, 7, 7, 0.61);
     color: white;
+    transition: background-color 0.1s linear, border-color 0.1s linear;
 }
 
+code:hover {
+    background-color: rgb(29, 27, 27);
+    border-color: rgb(146, 143, 143);
+}
 
 /*Imagens do rodapé*/
 .link img {
     margin-top: 20px;
     margin-bottom: -10px;
-    border-radius: 100%;
     margin-left: 10px;
+    border-radius: 100%;
     background-color: white;
-    color:  rgba(65, 105, 225, 0.561);
 }
 
-/*Botão de voltar ao início (linha 216)*/
+/*Botão de voltar ao início (Ao final do código)*/
 .botvolt {
     border-radius: 100px;
     border-color: blueviolet;
@@ -97,10 +102,14 @@ button {
     font-weight: bolder;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: pink;
+    transition: background-color 0.1s linear;
+}
+
+button:hover {
+    background-color: rgb(216, 94, 114);
 }
 
 /*Alinhamento*/
-
 div {
     margin-left: 15px;
 }
@@ -109,10 +118,67 @@ hr {
     margin: 0;
 }
 
+/*Coloração dos hyperlinks do rodapé*/
+.link > li > a {
+    font-weight: bolder;
+    color: #731dd8;
+}
+
+/*Tabela de horários*/
+
+table {
+    border-collapse: collapse;
+    border-style: groove;
+    border-color: coral;
+    border-width: 5px;
+    background-color: #bcd2ee;
+    margin: 5%;
+    margin-top: 1px;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 13px;
+}
 
 
+/*Células de dia e horário aula*/
+.dia_hora {
+    background-color: #fab2ea;
+}
 
 
+/*Coloração das células das disciplinas*/
+.BD {
+    background-color: #19FFFF ;
+}
 
+.FM {
+    background-color: tomato;
+}
 
+.EN {
+    background-color: #00BA50 ;
+}
 
+.IP {
+    background-color: #abff4f ;
+}
+
+.WEB {
+    background-color: #e9eb9e ;
+}
+
+.IC {
+    background-color: #3772ff;
+}
+
+.PC {
+    background-color: #FF00B7;
+}
