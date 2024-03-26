@@ -1,7 +1,7 @@
 body {
     background-color:rgba(168, 168, 209, 0.548);
     padding: 0;
-    margin: 0px;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -9,8 +9,8 @@ body {
 .ads {
     justify-content: center;
     display: flex;
-    margin-bottom: -7px;
-    max-width: 1345px;
+    margin-bottom: -0.35em;
+    width: 99.75%;
     
 }
 
@@ -38,28 +38,23 @@ li {
    padding-bottom: 10px;
 }
 
-/*Ícone Lobo*/
-.circle {
-    border-radius: 50%;
-    width:50px;
-    height: 50px;
-    margin-top: 1%;
-    position: absolute;
-    margin-inline-start: 22%;
+.disc {
+    font-weight: bold;
 }
 
-.circle img {
-    position: absolute;
-    width: 100%;
+/*Conteúdos a serem ministrados*/
+.content > li {
+    font-weight: bold;
+    font-style: normal;
 }
 
-/*Listas dos conteúdos a ser aprendido*/
+/*1. Listas de conteúdos já aprendidos*/
 .tags > li {
-    padding: 6px;
+    padding: 0.7em;
     
 }
 
-/*Lista de conteúdos já estudados e sua interação com o usuário*/
+/*1.1 - Lista de conteúdos aprendidos: Interação com o usuário*/
 code {
     cursor: default;
     border-style: solid;
@@ -128,15 +123,14 @@ hr {
 
 table {
     border-collapse: collapse;
-    border-style: groove;
-    border-color: coral;
+    border-style: solid;
+    border-color: rgb(253, 179, 42);
     border-width: 5px;
     background-color: #bcd2ee;
-    margin: 5%;
-    margin-top: 1px;
+    margin: auto;
     margin-bottom: 3%;
-    font-weight: bolder;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 1em;
     text-align: center;
 }
 
