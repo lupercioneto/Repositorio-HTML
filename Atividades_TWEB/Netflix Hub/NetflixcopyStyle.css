@@ -1,0 +1,113 @@
+/* Corpo princiapl do código */
+body {
+    background-color: #0F0F0F;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+main {
+    margin-left: 9rem;
+    margin-right: 1rem;
+} 
+
+/* Ocupando espaço no topo a fim de centralizar o bloco central*/
+.hidbox {
+    margin-top: 10%;
+}
+
+/* Estilização do texto "Quem está assistindo?" */
+.whosWatch {
+    width: 900px;
+    color: white;
+    text-align: center;
+    font-weight: light;
+}
+
+/* Estilizando o botão "gerenciar perfis" 
+    - Ao passar o mouse pelo botão
+    - Ao clicar no botão */
+.managePfbutt {
+    display: block;
+    border: 2px solid #686D76;
+    background-color: #0F0F0F;
+    color: #686D76;
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.1s ease-in, border 0.1s ease-in, transform 0.2s ease;
+    margin: 1.5rem 40% auto 40%;
+}
+
+.managePfbutt:hover {
+    color: black;    
+    background-color: #b4b4b898;
+    border: black solid;
+}
+
+.managePfbutt:active {
+    transform: scale(0.90);
+}
+
+/* Elemento Pai que engloba as caixas, estas que contém as fotos de perfil e nome dos usuários */
+.UserPfp {
+    padding-left: 8%;
+    display: inline-block;
+}
+
+/* Caixas que contém as fotos e nomes de perfil dos usuários, de forma individual */
+.UserPfp div {
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+}
+
+/* Nome de perfil dos usuários */
+.UserPfp div p {
+    display: inline-block;
+    color: rgba(245, 242, 242, 0.486);
+    text-align: center; 
+    width: 100%;
+    font-weight: bold;
+    margin: 3% 3% 3% 3%
+}
+
+/* Estilização da imagem do usuário 
+    - Ao clicar em uma imagem de perfil
+    - Ao passar o ouse em uma imagem de perfil */
+.UserImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: solid;
+    transition: border-radius 0.2s ease-in-out, border 0.1s ease, transform 0.1s ease;
+}
+
+.UserImg:active {
+    transform: scale(0.90);
+}
+
+.UserImg:hover {
+    cursor: pointer;
+    border-radius: 20%;
+    border: rgb(255, 255, 255) solid;
+    
+}
+
+/* Estilização do botão de "Adicionar perfil" 
+    - Ao passar o mouse
+    - Ao clicar no botão */ 
+.AddPf {
+    width: 150px;
+    height: 150px;
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out, transform 0.1s ease;
+    cursor: pointer;
+}
+
+.AddPf:hover {
+    filter: brightness(100%);
+}
+
+.AddPf:active {
+    transform: scale(0.95);
+}
