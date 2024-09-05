@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Aplicando Flex-Box*/
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-jogo-de-textura-de-mesa-de-poquer-de-cassino-verde_107791-20546.jpg); 
+
+}
+
+/*Estilização dos cards*/
+
+/* Caixa que conterá todos os cards*/
+.box-card {
+    max-width: 100%;
+    height: 100vh;
+
+    /*Caixa Card individual*/
+    & .card {
+        margin: 3rem 0 2rem 20rem;
+        max-width: 20vh;
+        height: 25%;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.2s ease, border 0.1s linear;
+        transform-style: preserve-3d;
+
+        /* Efeito flip nos cards*/
+        &:active .card-inner {
+            transform-style: preserve-3d;
+            transform: rotateY(180deg);
+        } 
+
+        & .card-inner {
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /*Estilização das partes da frente e trás das cartas*/
+        & .card-front {
+            backface-visibility: hidden;
+            border-radius: 15px;
+        }
+
+        & .img-card {
+            width: 100%;
+            height: 100%; 
+        }
+
+        & .card-back {
+            position: absolute;
+            border: 4px rgb(22, 24, 26) solid;
+            border-radius: 12px;
+            right: 0rem;
+            bottom: 0.1rem;
+            z-index: -1;
+        }
+    }   
+    
+    .card:hover {
+        transform: translateY(-100px); 
+        border-radius: 12px;
+    }
+
+
+    /* Posicionamento das cartas */
+    & #card1 {
+        left: calc(10%);
+        top: calc(10%);  
+        z-index: 0; 
+    }
+    
+    & #card2 {
+        left: calc(10% * 1.3); 
+        bottom: calc(15%);  
+        z-index: 1; 
+    }
+    
+    & #card3 {
+        left: calc(10% * 1.6); 
+        bottom: calc(40%);  
+        z-index: 2; 
+    }
+
+    & #card4 {
+        left: calc(10% * 1.9); 
+        bottom: calc(65%);  
+        z-index: 3; 
+    }
+
+    & #card5 {
+        left: calc(10% * 2.2); 
+        bottom: calc(90%);  
+        z-index: 4; 
+    }
+}
+
